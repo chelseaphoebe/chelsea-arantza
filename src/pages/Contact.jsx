@@ -3,6 +3,8 @@ import emailjs from "@emailjs/browser";
 import { useNavigate } from "react-router-dom";
 import "../styles/custom.css";
 
+
+
 export default function Contact() {
   const form = useRef();
   const navigate = useNavigate();

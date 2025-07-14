@@ -134,7 +134,6 @@ export default function Footer() {
               <FaLinkedin />
             </motion.a>
 
-            {/* Perbaikan untuk link email */}
             <motion.div whileHover="hover" variants={iconHover}>
               <Link
                 to="/contact"

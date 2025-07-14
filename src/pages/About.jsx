@@ -39,8 +39,8 @@
     ];
 
     return (
-      <div className="max-w-4xl w-full mx-auto px-4 sm:px-8 pt-24 pb-20">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10">
+      <div className="max-w-4xl w-full mx-auto px-4 sm:px-8 pt-16 md:pt-24 pb-12 md:pb-20">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-10">
           {skills.map((item, index) => (
             <div key={index}>
               <h3 className="text-base sm:text-lg md:text-xl font-semibold text-black mb-2">
