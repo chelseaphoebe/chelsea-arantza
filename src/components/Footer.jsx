@@ -78,6 +78,7 @@
 //   );
 // }
 import React from "react";
+import { Link } from "react-router-dom"; // Tambahkan impor Link
 import { FaInstagram, FaLinkedin, FaEnvelope, FaHeart } from "react-icons/fa";
 import { motion } from "framer-motion";
 
@@ -133,16 +134,16 @@ export default function Footer() {
               <FaLinkedin />
             </motion.a>
 
-
-            <motion.a
-              href="/contact"
-              aria-label="Message"
-              className="text-gray-400 hover:text-black transition-colors"
-              whileHover="hover"
-              variants={iconHover}
-            >
-              <FaEnvelope />
-            </motion.a>
+            {/* Perbaikan untuk link email */}
+            <motion.div whileHover="hover" variants={iconHover}>
+              <Link
+                to="/contact"
+                aria-label="Message"
+                className="text-gray-400 hover:text-black transition-colors block"
+              >
+                <FaEnvelope />
+              </Link>
+            </motion.div>
           </div>
         </div>
 
