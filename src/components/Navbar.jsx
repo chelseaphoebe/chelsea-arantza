@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Menu, X, ChevronDown } from "lucide-react";
-import { Link, useLocation } from "react-router-dom"; // ✅ Tambahkan useLocation
+import { Link, useLocation } from "react-router-dom";
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -11,6 +11,9 @@ export default function Navbar() {
     pathname === path
       ? `text-black font-semibold ${extra}`
       : `text-gray-400 hover:text-gray-600 ${extra}`;
+
+  // Path baru untuk resume (tanpa folder public)
+  const resumePath = "/Resume_Chelsea_Arantza.pdf";
 
   return (
     <nav className="max-w-4xl w-full mx-auto px-8 py-12 flex items-center justify-between relative">
@@ -31,8 +34,8 @@ export default function Navbar() {
           CONTACT
         </Link>
         <a
-          href="/public/[RESUME] Chelsea Arantza Phoebe_Mei_2025.pdf"
-          download
+          href={resumePath}
+          download="Chelsea_Arantza_Resume.pdf"
           className="text-gray-400 hover:text-gray-600"
         >
           Resumé
@@ -71,8 +74,8 @@ export default function Navbar() {
             CONTACT
           </Link>
           <a
-            href="/public/[RESUME] Chelsea Arantza Phoebe_Mei_2025.pdf"
-            download
+            href={resumePath}
+            download="Chelsea_Arantza_Resume.pdf"
             className="text-gray-400 hover:text-black"
             onClick={() => setMenuOpen(false)}
           >

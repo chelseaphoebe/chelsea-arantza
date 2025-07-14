@@ -133,6 +133,7 @@ export default function Footer() {
               <FaLinkedin />
             </motion.a>
 
+
             <motion.a
               href="/contact"
               aria-label="Message"
@@ -180,7 +181,7 @@ export default function Footer() {
           </p>
 
           <p className="mt-6 text-gray-400 text-xs">
-            © {new Date().getFullYear()} Chelsea Arantza. All rights reserved.
+            © 2025 Chelsea Arantza. All rights reserved.
           </p>
         </div>
       </div>
