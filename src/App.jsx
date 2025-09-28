@@ -22,8 +22,7 @@ function App() {
       <div className="w-full min-h-screen flex flex-col">
         <Navbar />
         <Routes>
-          <Route path="/" element={<Navigate to="/home" replace />} />
-          <Route path="/home" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Product />} />
           <Route path="/success" element={<Success />} /> {/* ✅ add this */}

@@ -18,13 +18,13 @@ export default function Navbar() {
   return (
     <nav className="max-w-4xl w-full mx-auto px-8 py-12 flex items-center justify-between relative">
       {/* Logo */}
-      <Link to="/home" className="text-md font-medium tracking-wider">
+      <Link to="/" className="text-md font-medium tracking-wider">
         CHELSEA ARANTZA
       </Link>
 
       {/* Desktop Menu */}
       <div className="hidden md:flex items-center space-x-8 text-sm font-medium">
-        <Link to="/home" className={linkClass("/home")}>
+        <Link to="/" className={linkClass("/e")}>
           HOME
         </Link>
         <Link to="/about" className={linkClass("/about")}>
@@ -53,8 +53,8 @@ export default function Navbar() {
       {menuOpen && (
         <div className="absolute top-20 left-0 w-full bg-white border-t flex flex-col items-start px-6 py-4 space-y-4 text-sm font-medium md:hidden">
           <Link
-            to="/home"
-            className={linkClass("/home")}
+            to="/"
+            className={linkClass("/")}
             onClick={() => setMenuOpen(false)}
           >
             HOME
