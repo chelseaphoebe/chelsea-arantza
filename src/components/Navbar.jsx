@@ -13,7 +13,7 @@ export default function Navbar() {
       : `text-gray-400 hover:text-gray-600 ${extra}`;
 
   // Path baru untuk resume (tanpa folder public)
-  const resumePath = "/Resume_Chelsea_Arantza.pdf";
+  const resumePath = "/CV Chelsea Arantza Phoebe [August 2025].pdf";
 
   return (
     <nav className="max-w-4xl w-full mx-auto px-8 py-12 flex items-center justify-between relative">
@@ -35,7 +35,7 @@ export default function Navbar() {
         </Link>
         <a
           href={resumePath}
-          download="Chelsea_Arantza_Resume.pdf"
+          download="ChelseaCV-202508.pdf"
           className="text-gray-400 hover:text-gray-600"
         >
           Resumé
@@ -75,7 +75,7 @@ export default function Navbar() {
           </Link>
           <a
             href={resumePath}
-            download="Chelsea_Arantza_Resume.pdf"
+            download="ChelseaCV-202508.pdf"
             className="text-gray-400 hover:text-black"
             onClick={() => setMenuOpen(false)}
           >
