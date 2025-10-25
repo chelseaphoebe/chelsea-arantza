@@ -13,7 +13,7 @@ export default function Navbar() {
       : `text-gray-400 hover:text-gray-600 ${extra}`;
 
   // Path baru untuk resume (tanpa folder public)
-  const resumePath = "/CV Chelsea Arantza Phoebe [August 2025].pdf";
+  const resumePath = "/CV_Chelsea.pdf";
 
   return (
     <nav className="max-w-4xl w-full mx-auto px-8 py-12 flex items-center justify-between relative">
