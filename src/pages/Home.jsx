@@ -125,10 +125,9 @@ It promotes tourism and local experiences in Bali. My team and I focused on crea
           link="https://melali-in-bali.vercel.app/"
         />
         <ProjectCard
-          title="Website Revamp"
-          description="This prototype is a revamp of an existing website, created for my Human-Computer Interaction course.
-The goal was to improve its usability and interface by applying HCI principles. I focused on simplifying navigation, refining layout structure, and enhancing the overall user experience."
-          imagePath="/assets/img/revampndc.png"
+          title="LiveWell - Mobile Application"
+          description="LiveWell is a health and lifestyle companion app designed to help users build healthier habits. It tracks daily activities, analyzes lifestyle patterns, and provides personalized insights along with health insurance cost predictions based on users’ habits. With an intuitive and interactive interface, LiveWell encourages consistent, sustainable improvements toward a healthier life."
+          imagePath="/assets/img/livewell.png"
           link="https://www.figma.com/proto/de6UkSz12NG5wV4fRp2Ev1/re-vamp-design-NDC?node-id=52-302&t=9bvHsSvZhU2z5Zcq-1&scaling=contain&content-scaling=responsive&page-id=0%3A1&starting-point-node-id=1%3A3"
         />
         <ProjectCard
@@ -144,6 +143,13 @@ The app serves as an inclusive bridge between sign language users and the broade
 It’s a system designed to help UMKM manage their operations, including product inventory and pricing. Sellers can easily update product details, track stock, and streamline daily tasks through the platform."
           imagePath="/assets/img/aero.png"
           link="https://aerogalon.kuna1.my.id/#!"
+        />
+        <ProjectCard
+          title="Website Revamp"
+          description="This prototype is a revamp of an existing website, created for my Human-Computer Interaction course.
+The goal was to improve its usability and interface by applying HCI principles. I focused on simplifying navigation, refining layout structure, and enhancing the overall user experience."
+          imagePath="/assets/img/revampndc.png"
+          link="https://www.figma.com/proto/de6UkSz12NG5wV4fRp2Ev1/re-vamp-design-NDC?node-id=52-302&t=9bvHsSvZhU2z5Zcq-1&scaling=contain&content-scaling=responsive&page-id=0%3A1&starting-point-node-id=1%3A3"
         />
       </div>
     </div>
