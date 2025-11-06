@@ -128,7 +128,7 @@ It promotes tourism and local experiences in Bali. My team and I focused on crea
           title="LiveWell - Mobile Application"
           description="LiveWell is a health and lifestyle companion app designed to help users build healthier habits. It tracks daily activities, analyzes lifestyle patterns, and provides personalized insights along with health insurance cost predictions based on users’ habits. With an intuitive and interactive interface, LiveWell encourages consistent, sustainable improvements toward a healthier life."
           imagePath="/assets/img/livewell.png"
-          link="https://www.figma.com/proto/de6UkSz12NG5wV4fRp2Ev1/re-vamp-design-NDC?node-id=52-302&t=9bvHsSvZhU2z5Zcq-1&scaling=contain&content-scaling=responsive&page-id=0%3A1&starting-point-node-id=1%3A3"
+          link="https://drive.google.com/drive/folders/1CJG2Jen436JtJBUK8hhpqAIoAaltITjz?usp=sharing"
         />
         <ProjectCard
           title="Isyara"
